@@ -1,9 +1,3 @@
-# ProxyClient
-golang 代理客户端，尽量和 net 库一致。
-
-
-``` go
-
 package main
 
 import (
@@ -31,5 +25,3 @@ func main() {
 	}
 	fmt.Print(string(b))
 }
-
-```
